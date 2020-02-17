@@ -15,5 +15,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 find_package(unofficial-libuv CONFIG REQUIRED)
 
+add_subdirectory(src)
+
 enable_testing()
 add_subdirectory(tests)
